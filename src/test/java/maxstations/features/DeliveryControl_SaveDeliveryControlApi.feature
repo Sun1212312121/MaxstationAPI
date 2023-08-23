@@ -1,0 +1,210 @@
+Feature: DeliveryControl_SaveDeliveryControl Api
+
+Scenario: Test DeliveryControl SaveDeliveryControl
+  Given url inventoryUrl
+  Given path "/api/DeliveryControl/SaveDeliveryControl"
+  Given request
+  """
+{
+    "Header": {
+        "CompCode": "B",
+        "BrnCode": "003",
+        "LocCode": "001",
+        "DocNo": "DC003-23060002",
+        "DocStatus": "Active",
+        "DocDate": "2023-06-24T17:00:00.000Z",
+        "ReceiveNo": "RO003-23060012",
+        "RealDate": "2023-07-12T11:00+07:00",
+        "WhId": "4",
+        "WhName": "นครสวรรค์",
+        "LicensePlate": "asdf",
+        "CarNo": "asd",
+        "EmpCode": "",
+        "EmpName": "sss",
+        "CtrlCorrect": "Y",
+        "CtrlCorrectReasonId": "",
+        "CtrlCorrectReasonDesc": "",
+        "CtrlCorrectOther": "",
+        "CtrlOntime": "O",
+        "CtrlOntimeLate": 0,
+        "CtrlDoc": "Y",
+        "CtrlDocDesc": "",
+        "CtrlSeal": "Y",
+        "CtrlSealStart": 1,
+        "CtrlSealFinish": 2,
+        "Remark": "",
+        "Post": "N",
+        "RunNumber": 2,
+        "DocPattern": "DC003-2306####",
+        "Guid": "c817db14-db14-4720-b782-0f9db0f66a45",
+        "CreatedDate": "2023-07-12T11:29:58.847",
+        "CreatedBy": "10008642",
+        "UpdatedDate": "2023-07-12T12:17:34.137",
+        "UpdatedBy": "10040371"
+    },
+    "ArrDetail": [
+        {
+            "CompCode": "B",
+            "BrnCode": "003",
+            "LocCode": "001",
+            "DocNo": "DC003-23060002",
+            "SeqNo": 1,
+            "PdId": "000001",
+            "PdName": "ดีเซล B7",
+            "CtrlFull": "F",
+            "CtrlFullMm": 0,
+            "CtrlFullLt": 0,
+            "CtrlFullContact": "",
+            "CtrlApi": "Y",
+            "CtrlApiDesc": "",
+            "CtrlApiStart": 2,
+            "CtrlApiFinish": 3,
+            "CtrlEthanol": "Y",
+            "CtrlEthanolQty": 0
+        },
+        {
+            "CompCode": "B",
+            "BrnCode": "003",
+            "LocCode": "001",
+            "DocNo": "DC003-23060002",
+            "SeqNo": 2,
+            "PdId": "",
+            "PdName": "",
+            "CtrlFull": " ",
+            "CtrlFullMm": 0,
+            "CtrlFullLt": 0,
+            "CtrlFullContact": "",
+            "CtrlApi": " ",
+            "CtrlApiDesc": "",
+            "CtrlApiStart": 0,
+            "CtrlApiFinish": 0,
+            "CtrlEthanol": " ",
+            "CtrlEthanolQty": 0
+        },
+        {
+            "CompCode": "B",
+            "BrnCode": "003",
+            "LocCode": "001",
+            "DocNo": "DC003-23060002",
+            "SeqNo": 3,
+            "PdId": "",
+            "PdName": "",
+            "CtrlFull": " ",
+            "CtrlFullMm": 0,
+            "CtrlFullLt": 0,
+            "CtrlFullContact": "",
+            "CtrlApi": " ",
+            "CtrlApiDesc": "",
+            "CtrlApiStart": 0,
+            "CtrlApiFinish": 0,
+            "CtrlEthanol": " ",
+            "CtrlEthanolQty": 0
+        },
+        {
+            "CompCode": "B",
+            "BrnCode": "003",
+            "LocCode": "001",
+            "DocNo": "DC003-23060002",
+            "SeqNo": 4,
+            "PdId": "",
+            "PdName": "",
+            "CtrlFull": " ",
+            "CtrlFullMm": 0,
+            "CtrlFullLt": 0,
+            "CtrlFullContact": "",
+            "CtrlApi": " ",
+            "CtrlApiDesc": "",
+            "CtrlApiStart": 0,
+            "CtrlApiFinish": 0,
+            "CtrlEthanol": " ",
+            "CtrlEthanolQty": 0
+        },
+        {
+            "CompCode": "B",
+            "BrnCode": "003",
+            "LocCode": "001",
+            "DocNo": "DC003-23060002",
+            "SeqNo": 5,
+            "PdId": "",
+            "PdName": "",
+            "CtrlFull": " ",
+            "CtrlFullMm": 0,
+            "CtrlFullLt": 0,
+            "CtrlFullContact": "",
+            "CtrlApi": " ",
+            "CtrlApiDesc": "",
+            "CtrlApiStart": 0,
+            "CtrlApiFinish": 0,
+            "CtrlEthanol": " ",
+            "CtrlEthanolQty": 0
+        },
+        {
+            "CompCode": "B",
+            "BrnCode": "003",
+            "LocCode": "001",
+            "DocNo": "DC003-23060002",
+            "SeqNo": 6,
+            "PdId": "",
+            "PdName": "",
+            "CtrlFull": " ",
+            "CtrlFullMm": 0,
+            "CtrlFullLt": 0,
+            "CtrlFullContact": "",
+            "CtrlApi": " ",
+            "CtrlApiDesc": "",
+            "CtrlApiStart": 0,
+            "CtrlApiFinish": 0,
+            "CtrlEthanol": " ",
+            "CtrlEthanolQty": 0
+        },
+        {
+            "CompCode": "B",
+            "BrnCode": "003",
+            "LocCode": "001",
+            "DocNo": "DC003-23060002",
+            "SeqNo": 7,
+            "PdId": "",
+            "PdName": "",
+            "CtrlFull": " ",
+            "CtrlFullMm": 0,
+            "CtrlFullLt": 0,
+            "CtrlFullContact": "",
+            "CtrlApi": " ",
+            "CtrlApiDesc": "",
+            "CtrlApiStart": 0,
+            "CtrlApiFinish": 0,
+            "CtrlEthanol": " ",
+            "CtrlEthanolQty": 0
+        },
+        {
+            "CompCode": "B",
+            "BrnCode": "003",
+            "LocCode": "001",
+            "DocNo": "DC003-23060002",
+            "SeqNo": 8,
+            "PdId": "",
+            "PdName": "",
+            "CtrlFull": " ",
+            "CtrlFullMm": 0,
+            "CtrlFullLt": 0,
+            "CtrlFullContact": "",
+            "CtrlApi": " ",
+            "CtrlApiDesc": "",
+            "CtrlApiStart": 0,
+            "CtrlApiFinish": 0,
+            "CtrlEthanol": " ",
+            "CtrlEthanolQty": 0
+        }
+    ]
+}
+  """
+  When method POST
+  Then status 200
+  Then print response
+
+@ignore @report=false
+Scenario: Test ignore
+  Given url "http://abc.xyz"
+  Given path "demo"
+  When method GET
+  Then status 404
